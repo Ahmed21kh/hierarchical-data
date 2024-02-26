@@ -79,7 +79,7 @@ const TreeNode = ({ node, parent }) => {
       <div
         ref={lastChildRef}
         onClick={handleToggle}
-        className={`hover:bg-blue-500 group hover:text-white bg-[#87CEEB] w-fit  rounded-xl px-3 py-1 -mr-2  grow-0 font-bold -mt-4 cursor-pointer transition-all !duration-300 flex items-center gap-2`}
+        className={`hover:bg-blue-500 group hover:text-white bg-[#87CEEB] w-fit  rounded-xl px-3 py-1 -mr-2  grow-0 font-bold -mt-4 cursor-pointer transition-all !duration-200 flex items-center gap-2`}
       >
         {node.children ? (
           !expanded ? (
