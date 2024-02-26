@@ -107,8 +107,9 @@ const TreeNode = ({ node, parent }) => {
               className={`flex items-start mt-10 border-r-2 border-[#60A5FA]  last:border-background  gap-0`}
             >
               <div className=" w-[50px] h-[2px]   bg-[#60A5FA]" />
-
-              <TreeNode key={child.id} node={child} />
+              <ul>
+                <TreeNode key={child.id} node={child} />
+              </ul>
             </li>
           ))}
         </ul>
